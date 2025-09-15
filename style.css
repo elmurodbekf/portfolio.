@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #fdfdfd;
+  color: #222;
+}
+
+header {
+  background: #111;
+  color: white;
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #4e4e4e;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000000, #ffffff);
+  color: white;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.about, .projects, .contact {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about h2, .projects h2, .contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects .project {
+  margin: 30px 0;
+  padding: 20px;
+  border-left: 5px solid #414141;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.projects .project:hover {
+  background: #8b8b8b;
+  transform: translateX(10px);
+}
+
+.contact p {
+  text-align: center;
+}
+
+footer {
+  background: #000000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
